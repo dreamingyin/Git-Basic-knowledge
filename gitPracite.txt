@@ -21,3 +21,12 @@ git reset --hard ac4b01f6763d1f6dca9c1e205a6b0947931acf91(commit id)：指定会到某
 git reset head -- readme.txt：将暂存区的修改撤销掉重新放回工作去
 
 git checkout -- readme.txt：放弃工作区的修改
+git checkout -- readme.txt：放弃工作区的修改
+
+git checkout -b dev：创建分支并且切换至dev分支
+
+git checkout dev：切换到dev分支
+
+git branch dev：创建dev分支
+
+git branch：查看当前分支
