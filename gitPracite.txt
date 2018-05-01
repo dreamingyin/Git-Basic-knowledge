@@ -1,0 +1,23 @@
+Base knowledge of git
+
+git init:初始化仓库
+
+git add readme.txt:添加件到仓库
+
+git commit -m "描述"：将件提交到仓库
+
+git diff readme.txt：查看件做了哪些修改
+
+git diff HEAD -- readme.txt：查看工作区与版本库之间最新的区别
+
+git log --pretty=oneline：查看提交日志
+
+git reflog：查看历史命令
+
+git reset --hard HEAD~：退回上一个版本
+
+git reset --hard ac4b01f6763d1f6dca9c1e205a6b0947931acf91(commit id)：指定会到某个版本
+
+git reset head -- readme.txt：将暂存区的修改撤销掉重新放回工作去
+
+git checkout -- readme.txt：放弃工作区的修改
