@@ -1,2 +1,3 @@
 Hello world
 pracite exercite
+study git
