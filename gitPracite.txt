@@ -30,3 +30,6 @@ git checkout dev：切换到dev分支
 git branch dev：创建dev分支
 
 git branch：查看当前分支
+git remote add origin git@github.com:dreamingyin/Gitknowledge.git：添加远程仓库
+
+git push -u origin master：将本地仓库推到远程仓库
